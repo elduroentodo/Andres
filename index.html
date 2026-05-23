@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NovaRuta Territorio Estratégico</title>
+
+<style>
+/* ===== ESTILOS GENERALES ===== */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f7f4;
+  color: #1e293b;
+}
+
+h1, h2, h3 {
+  margin: 0 0 10px;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.btn {
+  background: #123b2a;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #1b5c41;
+}
+
+/* ===== NAVBAR ===== */
+nav {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #123b2a;
+  font-weight: bold;
+}
+
+/* ===== HERO ===== */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  color: #123b2a;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* ===== TARJETAS ===== */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* ===== SECCIONES OSCURAS ===== */
+.dark {
+  background: #123b2a;
+  color: white;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  background: #0f241a;
+  color: white;
+  padding: 20px;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px){
+  .hero h1 {
+    font-size: 28px;
+  }
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div><strong>NovaRuta</strong></div>
+  <div>
+    <a href="#problema">Problema</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#modelo">Modelo</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>NovaRuta Territorio Estratégico</h1>
+  <p>Transformamos planes y proyectos territoriales en resultados implementables con impacto real en las comunidades.</p>
+  <br>
+  <a href="#contacto" class="btn">Agenda una asesoría estratégica</a>
+</section>
+
+<!-- PROBLEMA -->
+<section id="problema">
+  <h2>El problema</h2>
+  <p>
+    Muchos proyectos territoriales se quedan en el papel. Instituciones y empresas enfrentan dificultades para ejecutar estrategias, generar participación y lograr resultados sostenibles en los territorios.
+  </p>
+</section>
+
+<!-- SOLUCIÓN -->
+<section class="dark">
+  <h2>La solución</h2>
+  <p>
+    NovaRuta integra desarrollo territorial y comunicación estratégica para convertir planes en acciones reales. Acompañamos desde diagnóstico hasta implementación y medición de impacto.
+  </p>
+</section>
+
+<!-- PROPUESTA DE VALOR -->
+<section>
+  <h2>Propuesta de valor</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>✅ Implementación real</h3>
+      <p>Convertimos estrategias en acciones ejecutables.</p>
+    </div>
+
+    <div class="card">
+      <h3>🌎 Legitimidad territorial</h3>
+      <p>Conectamos instituciones y comunidades.</p>
+    </div>
+
+    <div class="card">
+      <h3>📢 Comunicación estratégica</h3>
+      <p>Generamos confianza e impacto institucional.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+  <h2>Servicios</h2>
+
+  <div class="cards">
+    <div class="card">Planeación estratégica territorial</div>
+    <div class="card">Formulación de proyectos</div>
+    <div class="card">Comunicación institucional</div>
+    <div class="card">Participación comunitaria</div>
+  </div>
+</section>
+
+<!-- CLIENTE OBJETIVO -->
+<section>
+  <h2>Cliente objetivo</h2>
+  <p>
+    Entidades públicas, ONGs, cooperación internacional y empresas que necesitan apoyo en planeación, sostenibilidad y gestión territorial.
+  </p>
+</section>
+
+<!-- MODELO -->
+<section id="modelo" class="dark">
+  <h2>Modelo de negocio</h2>
+  <p>
+    Generamos ingresos a través de consultoría estratégica, formulación de proyectos, acompañamiento por fases y diseño de estrategias de comunicación institucional.
+  </p>
+</section>
+
+<!-- CANALES -->
+<section>
+  <h2>Canales digitales</h2>
+  <div class="cards">
+    <div class="card">🌐 Página web</div>
+    <div class="card">💼 LinkedIn</div>
+    <div class="card">📱 Instagram</div>
+    <div class="card">📲 WhatsApp Business</div>
+  </div>
+</section>
+
+<!-- MVP -->
+<section>
+  <h2>Validación / MVP</h2>
+  <p>
+    Piloto de diagnóstico territorial en 10 días que entrega análisis de actores, riesgos, oportunidades y hoja de ruta inicial para proyectos.
+  </p>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="dark">
+  <h2>Contacto</h2>
+
+  <p>Escríbenos para agendar tu asesoría:</p>
+
+  <p>📧 contacto@novaruta.co</p>
+  <p>📱 WhatsApp: +57 300 123 4567</p>
+
+  <br>
+  <a href="#" class="btn">Agenda una asesoría estratégica</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  NovaRuta Territorio Estratégico © 2026<br>
+  Estrategia, sostenibilidad y comunicación para territorios que avanzan.
+</footer>
+
+</body>
+</html>
